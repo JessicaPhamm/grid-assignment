@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+    background: #E76FC3;
+}
+ul li{
+    display:inline-block;
+    position: relative;
+}
+ul li a{
+    display:block;
+    padding: 20px 25px;
+    color:aliceblue;
+    text-decoration: none;
+}
+ul li ul.dropdown li {
+    display: block;
+}
+ul li ul.dropdown{
+    width: 100%;
+    background-color:#F4D8EC ;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover{
+    background-color: #F4D8EC;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+main{
+    color:white;
+    font-family: andale mono, monospace;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin: 0;
+}
+
+h2{
+    color: white;
+    font-family: andale mono, monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.4rem;
+    margin: 0;
+    
+}
+h3{
+    color: white;
+    font-family: andale mono, monospace;
+    font-weight: 350;
+    font-style: normal;
+    font-size: 1.8rem;
+    margin: 0;
+    
+}
+p{
+    font-family: andale mono, monospace;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin: 0;
+}
+footer{
+    background: #E76FC3;
+    border-style: inset;
+}
+.socials{
+    list-style-type: none;
+    padding: 0;
+}
+.socials li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.socials img{
+    width: 32px;
+}
+.socials img:hover{
+    opacity: 0.5;
+}
